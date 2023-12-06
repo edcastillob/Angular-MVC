@@ -1,0 +1,9 @@
+h2{
+    color: brown;   
+}
+.container{
+    border-radius: 5px;
+    border: solid brown;
+    padding: 2px;
+    text-align: center;
+}
