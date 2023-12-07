@@ -7,13 +7,19 @@ import { PadreComponent } from './padre/padre.component';
 import { HijoComponent } from './hijo/hijo.component';
 import { ContadorComponent } from './contador/contador.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HermanoComponent } from './hermano/hermano.component';
+import { DirectHermanosDirective } from './direct-hermanos.directive';
+import { MiPipeTitlePipe } from './mi-pipe-title.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     PadreComponent,
     HijoComponent,
-    ContadorComponent
+    ContadorComponent,
+    HermanoComponent,
+    DirectHermanosDirective,
+    MiPipeTitlePipe
   ],
   imports: [
     BrowserModule,

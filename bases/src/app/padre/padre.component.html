@@ -1,0 +1,12 @@
+<h1>Soy tu Padre</h1>
+<app-hijo  [recibeHijo] = "mensajePadre"/>
+
+<hr>
+<h2>Service</h2>
+<h2>Fecha: {{fecha | date: "dd/MM/yyyy"}}</h2>
+<p>Cotización Divisas: {{1 | currency}} - {{dolar | currency: 'VES'}}</p>
+<h1>Herman@ Mayor:</h1>
+<h4 appDirectHermanos>{{nombre}}</h4>
+ <h4>{{nombre | miPipeTitle}}</h4>
+<button type="button" (click)="saludar()">saludar</button>
+<button type="button" (click)="preguntar()">preguntar</button> 
